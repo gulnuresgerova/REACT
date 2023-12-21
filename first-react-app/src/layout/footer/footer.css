@@ -1,0 +1,57 @@
+footer{
+    background-color: black;
+    color: honeydew;
+    padding: 5% 0;
+}
+.foother{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.foot-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 50px;
+}
+.foot-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17rem;
+}
+.foot-bottom-left{
+    display: flex;
+    position: relative;
+}
+input{
+    height: 30px;
+    width: 380px;
+    padding: 0 20px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: darkblue;
+    color: aliceblue;
+
+}
+.top{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    position: absolute;
+    left: 19rem;
+}
+.foot-bottom-right{
+    display: flex;
+    gap: 3rem;
+}
+.icone{
+    font-size: 1.5rem;
+}

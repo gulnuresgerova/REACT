@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: monospace;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+@media only screen and (max-width: 1199px) {
+  .container
+  {padding: 0 5%;}
+}
+table,
+tr,
+th,
+td {
+  border: 2px solid rgb(18, 219, 62);
+}

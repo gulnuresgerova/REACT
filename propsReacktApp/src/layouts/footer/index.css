@@ -1,0 +1,11 @@
+footer {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+   
+  }
+  .footer {
+    padding: 2rem 0;
+  }

@@ -4,7 +4,8 @@
   justify-content: space-around;
   color: darkblue;
   font-family: monospace;
-  gap: 6rem;
+  gap: 7rem;
+  padding: 2% 0;
 }
 .head-left {
   display: flex;
@@ -13,7 +14,7 @@
   gap: 2rem;
 }
 .icon {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: brown;
 }
 .head-right nav ul {
@@ -23,4 +24,20 @@
   gap: 2rem;
   font-size: 1.1rem;
 
+}
+
+.head-right nav ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+color: darkblue;
+border-radius: 7px;
+border: 1px solid transparent;
+  background-color: transparent;
+}
+.head-right nav ul li:hover{
+  background-color: darkblue;
+  color: white;
 }

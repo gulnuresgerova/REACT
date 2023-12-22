@@ -19,14 +19,14 @@ function Footer() {
             </div>
 
             <div className="top">
-              <div className="icone">
+              <div className="icone ">
                 <IoBalloon />
               </div>
               <p>Ballon diyim ha billesin</p>
             </div>
 
             <div className="top">
-              <div className="icone">
+              <div className="icone ">
                 <IoBalloon />
               </div>
               <p>Ballon diyim ha billesin</p>
@@ -45,16 +45,16 @@ function Footer() {
               </div>
             </div>
             <div className="foot-bottom-right">
-              <div className="icone">
+              <div className="icone ic">
                 <IoBaseballSharp />
               </div>
-              <div className="icone">
+              <div className="icone ic">
                 <IoBasketball />
               </div>
-              <div className="icone">
+              <div className="icone ic">
                 <IoBowlingBall />
               </div>
-              <div className="icone">
+              <div className="icone ic">
                 <IoDiceSharp />
               </div>
             </div>

@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-left: 4rem;
+    font-family: monospace;
+
+}
+.home-left{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+gap: 2rem;
+}
+button{
+    border-radius: 10px;
+    
+}
+button:hover{
+  background-color: aqua;
+  color: darkblue;
+    
+}
+.home-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+}
+.home-right img{
+    width: 100%;
+    border-radius: 70%;
+}

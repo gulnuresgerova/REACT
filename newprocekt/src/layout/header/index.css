@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    z-index: 999; */
+    width: 100%;
+    background-color: aliceblue;
+  }
+  .header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 65rem;
+  }
+  .logo {
+   font-size: 3rem;
+  }
+  .logo span {
+    color: red;
+    font-size: 5rem;
+  }
+  .headerRight ul {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    column-gap: 3rem;
+  }
+  .headerRight nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+  font-size: 2rem;
+    text-decoration: none;
+    color: black;
+  }

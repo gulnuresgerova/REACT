@@ -1,0 +1,75 @@
+#servicestwo {
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 35px;
+    position: relative;
+  }
+  .servicestwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    width: 100%;
+    padding: 90px 0;
+    position: absolute;
+  
+  }
+  button{
+    width: 200px;
+    margin-top: 40px;
+  }
+  .servicesimg {
+    width: 50%;
+  }
+  .servicesimg img {
+    width: 100%;
+  }
+  .servicestext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    gap: 2rem;
+  }
+
+  .top {
+    font-size: 1.7rem;
+   color: red;
+ font-weight: 3rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .servicestext h1 {
+
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+  .mollitWhite {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
+.servicestext p{
+    color: white;
+    font-size: 2rem;
+    width: 50%;
+    display: flex;
+
+}
+  .serv {
+    font-size: 18px;
+    height: 5px;
+    border-top: 2px solid #cecece;
+    width: 50px;
+    color: white;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }

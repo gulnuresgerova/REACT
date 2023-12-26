@@ -1,6 +1,7 @@
 import "./index.css"
 
 import React from 'react'
+import { NavLink } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -15,19 +16,19 @@ const Header = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                <NavLink to={"/"}>Home</NavLink>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                <NavLink to={"/servicestwo"}>servicestwo</NavLink>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                <NavLink to={"/services"}>services</NavLink>
                 </li>
                 <li>
-                  <a href="#">Blog</a>
+                <NavLink to={"/contact"}>contact</NavLink>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                <NavLink to={"/team"}>team</NavLink>
                 </li>
               </ul>
             </nav>

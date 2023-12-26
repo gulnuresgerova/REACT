@@ -13,6 +13,10 @@ import Carusel from './pages/carusel'
 import Team from './pages/Team'
 
 import Footer from './layout/footer'
+import { Route,Routes } from 'react-router-dom'
+
+import ServicesDetails from './servicesdetailes'
+import NotFound from './pages/not-faund'
 
 
 const App = () => {
@@ -20,17 +24,32 @@ const App = () => {
    <>
     <Topheader/>
     <Header/>
-    <Home/>
-    <Services/>
-    <Servicestwo/>
- 
-    <Study/>
 
-    <Search/>
-    <Blog/>
-  
-    <Carusel/>
-    <Team/>
+
+
+<Routes>
+
+  <Route path='/' element={ <Home/>}> 
+  </Route >
+  <Route path='/services' element={     <Services/>}> 
+  </Route >
+  <Route path='/servicestwo' element={  <Servicestwo/>}> 
+  </Route >
+  <Route path='/contact' element={   <Study/>}> 
+  </Route >
+  <Route path='/contact' element={     <Search/>}> 
+  </Route >
+  <Route path='/contact' element={<Blog/>}> 
+  </Route >
+  <Route path='/products' element={   <Carusel/>}> 
+  </Route >
+  <Route path='/team' element={     <Team/>}> 
+  </Route >
+  <Route path='/services/:id' element={  <ServicesDetails/>}> 
+  </Route >
+  <Route path='*' element={  <NotFound/>}> 
+  </Route >
+</Routes>
 
 <br />
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Topheader from './layout/top-header'
 import Header from './layout/header'
-
+import { useState } from "react";
 import Home from './pages/home'
 import Services from './pages/services'
 import Servicestwo from './pages/services-two'
@@ -17,6 +17,7 @@ import { Route,Routes } from 'react-router-dom'
 
 import ServicesDetails from './servicesdetailes'
 import NotFound from './pages/not-faund'
+import ProdTable from './pages/prodtable'
 
 
 const App = () => {
@@ -48,6 +49,8 @@ const App = () => {
   <Route path='/services/:id' element={  <ServicesDetails/>}> 
   </Route >
   <Route path='*' element={  <NotFound/>}> 
+  </Route >
+  <Route path='/table' element={  <ProdTable/>}> 
   </Route >
 </Routes>
 
